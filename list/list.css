@@ -1,0 +1,41 @@
+#todo_input:focus {
+    outline: none;
+}
+
+#todo_input {
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.todo_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    padding: 10px;
+    background-color: #eee;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.checkbox {
+    margin-right: 5px;
+}
+
+.delete_btn {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.delete_btn:hover{
+    background-color: #ed1b14;
+}
+
+#error_msg{
+    color: red;
+}

@@ -1,0 +1,14 @@
+
+#error_msg{
+    color: red;
+}
+
+#input_sort:focus{
+    outline: none;
+}
+
+#input_sort{
+    height: 50px;
+    width: 30%;
+    border-radius: 10px;
+}
