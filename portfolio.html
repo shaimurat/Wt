@@ -23,16 +23,18 @@
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Index</a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item" href="#game">About game</a></li>
+                <li><a class="dropdown-item" href="#mcs">Main Characters</a></li>
+                <li><a class="dropdown-item" href="#adv">Advantages</a></li>
+                <li><a class="dropdown-item" href="#graph">Graphics</a></li>
+
               </ul>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <div class="px-4 py-5 my-5 text-center">
+    <div id="game" class="px-4 py-5 my-5 text-center">
       <img class="d-block mx-auto mb-4" src="imgs/logoDis.jpg" alt="" width="350" height="450">
       <h1 class="display-5 fw-bold text-body-emphasis">Dishonored Game series</h1>
       <div class="col-lg-6 mx-auto">
@@ -44,24 +46,79 @@
     </div>
     <hr class="featurette-divider">
     <div class="container d-flex justify-content-center py-4">
-      <h2 >Main characters</h2>
+
+      <h2>Main characters</h2>
     </div>
 
-    <div class="d-md-flex flex-md-equal justify-content-center w-100 my-md-3 ps-md-3">
-      <div class="bg-body-tertiary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+    <div id = "mcs" class="d-md-flex flex-md-equal justify-content-center w-100 my-md-3 ps-md-3 py-4">
+      <div class="text-bg-dark p-3 bg-body-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
         <div class="my-3 p-3">
           <h2 class="display-5">Corvo Attano</h2>
           <p class="lead">Corvo Attano is the protagonist of Dishonored and one of the two playable protagonists of Dishonored 2. Previously the Royal Protector and secret paramour to Empress Jessamine Kaldwin</p>
         </div>
-        <img src="imgs/Corvo.jpg" width="50%">
+        <img src="imgs/Corvo.jpg" width="350px" height="550px">
       </div>
       <div class="text-bg-primary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
         <div class="my-3 py-3">
           <h2 class="display-5">Emily Kaldwin</h2>
-          <p class="lead">And an even wittier subheading.</p>
+          <p class="lead">Emily Kaldwin is the daughter of Corvo.She is playable in Dishonored 2. She is the rightful heir to the throne of the Isles and Empress Jessamine Kaldwin's only child.</p>
         </div>
-        <img src="imgs/Emili.jpg" width="50%">
+        <img src="imgs/Emili.jpg" width="350px" height="550px">
       </div>
+    </div>
+    
+
+    <div id = "adv" class="container px-4 py-5" id="hanging-icons">
+      <h2 class="pb-2 border-bottom">Advantages</h2>
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="col d-flex align-items-start">
+          <div>
+            <h3 class="fs-2 text-body-emphasis">Gameplay</h3>
+            <p>This game has very interesting gameplay. There is a lot of abilities like teleportion, seeing through walls and so on.</p>
+            
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div>
+            <h3 class="fs-2 text-body-emphasis">Many ways to play</h3>
+            <p>You can pass game by killing everyone, but it will give ypu bad ending. Also you can fully pass game with stealth, with 0 kills, it will give you good ending.</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div>
+            <h3 class="fs-2 text-body-emphasis">Story</h3>
+            <p>Game has very interesting world and characters. Every character has his own purpose. And the player gets attached to a lot of them </p>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div id = "graph" class="container px-4 py-5" id="custom-cards">
+      <h2 class="pb-2 border-bottom">Graphics</h2>
+  
+      <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+        <img src="imgs/1.jpg">
+        <img src="imgs/2.jpg">
+        <img src="imgs/3.jpg">
+    </div>
+
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <p class="col-md-4 mb-0 text-body-secondary">© 2024 Danial</p>
+    
+        <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+          <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+    
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item"><a href="#game" class="nav-link px-2 text-body-secondary">About game</a></li>
+          <li class="nav-item"><a href="#mcs" class="nav-link px-2 text-body-secondary">Main characters</a></li>
+          <li class="nav-item"><a href="#adv" class="nav-link px-2 text-body-secondary">Advantages</a></li>
+          <li class="nav-item"><a href="#graph" class="nav-link px-2 text-body-secondary">Graphics</a></li>
+        </ul>
+      </footer>
     </div>
 </body>
 </html>
